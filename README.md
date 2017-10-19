@@ -8,10 +8,10 @@
 
 
 # magic
-`import (
-  "os"
-  "fmt"
-)`
+`import (`
+`  "os"`
+`  "fmt"`
+`)`
 
 * [Overview](#pkg-overview)
 * [Index](#pkg-index)
