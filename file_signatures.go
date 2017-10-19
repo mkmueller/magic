@@ -1,0 +1,19 @@
+// Copyright (c) 2017 Mark K Mueller, (markmueller.com), All rights reserved.
+
+package magic
+
+var SignatureTable []fs = []fs {
+		fs{"DOS Executable",			"exe,dll",		0,	[]byte{ 0x4D, 0x5A }},
+		fs{"Mach-O Executable 32-bit",	"o,dylib,bundle",		0,	[]byte{ 0xFE, 0xED, 0xFA, 0xCE }},
+		fs{"Mach-O Executable 64-bit",	"o,dylib,bundle",		0,	[]byte{ 0xFE, 0xED, 0xFA, 0xCF }},
+		fs{"Linux ELF Executable",		"axf,bin,elf,o,prx,puff,ko,mod,so",		0,	[]byte{ 0x7F, 0x45, 0x4C, 0x46 }},
+		fs{"Zip Archive",				"zip",	0,	[]byte{ 0x50, 0x4B, 0x03, 0x04 }},
+		fs{"Rar Archive",				"rar",	0,	[]byte{ 0x52, 0x61, 0x72, 0x21, 0x1A, 0x07, 0x01, 0x00 }},
+		fs{"Ogg Container",				"ogg",	0,	[]byte{ 0x4F, 0x67, 0x67, 0x53 }},
+		fs{"PNG Image",					"png",	0,	[]byte{ 0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A }},
+		fs{"BMP Image",					"bmp",	0,	[]byte{ 0x42, 0x4D }},
+		fs{"GIF87a Image",				"gif",	0,	[]byte{ 0x47, 0x49, 0x46, 0x38, 0x37, 0x61 }},
+		fs{"GIF89a Image",				"gif",	0,	[]byte{ 0x47, 0x49, 0x46, 0x38, 0x39, 0x61 }},
+}
+
+
