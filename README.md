@@ -1,3 +1,10 @@
+[![GoDoc](https://godoc.org/github.com/mkmueller/magic?status.svg)](https://godoc.org/github.com/mkmueller/magic)
+[![MarkMueller](https://img.shields.io/badge/tests-passed-00cc00.svg)](http://markmueller.com/)
+[![MarkMueller](https://img.shields.io/badge/coverage-95.2%25-orange.svg)](http://markmueller.com/)
+
+
+
+
 
 
 # magic
@@ -24,7 +31,7 @@ signatures at <a href="http://www.garykessler.net/library/file_sigs.html">http:/
 * [FileBytes](#example_FileBytes)
 
 #### <a name="pkg-files">Package files</a>
-[file_signatures.go](/src/target/file_signatures.go) [magic.go](/src/target/magic.go) 
+[file_signatures.go](/src/target/file_signatures.go) [magic.go](/src/target/magic.go)
 
 
 
